@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "name": "Fictional overloaded narrow window",
+  "start": "2026-11-28T18:00:00+08:00",
+  "timezone": "Asia/Shanghai",
+  "slot_minutes": 30,
+  "currency": "CNY",
+  "tariff_source": "Fictional user-entered time-of-use prices for a prototype; not a current utility offer.",
+  "prices_per_kwh": [
+    "1.25",
+    "1.25",
+    "1.10",
+    "0.95",
+    "0.60",
+    "0.45",
+    "0.30",
+    "0.30",
+    "0.35",
+    "0.60",
+    "0.90",
+    "1.00"
+  ],
+  "capacity_watts": 2000,
+  "background_watts": [
+    350,
+    350,
+    350,
+    350,
+    350,
+    350,
+    350,
+    350,
+    350,
+    350,
+    350,
+    350
+  ],
+  "jobs": [
+    {
+      "id": "dishwasher",
+      "name": "Dishwasher (user confirmed noncritical)",
+      "earliest_start": 0,
+      "latest_finish": 2,
+      "duration_slots": 2,
+      "power_watts": 1500,
+      "estimated_kwh": "1.2",
+      "estimate_source": "Fictional manually entered estimate; not a smart-meter observation.",
+      "baseline_start": 0,
+      "locked": false,
+      "noncritical_confirmed": true
+    },
+    {
+      "id": "washer",
+      "name": "Washing machine (user confirmed noncritical)",
+      "earliest_start": 0,
+      "latest_finish": 2,
+      "duration_slots": 2,
+      "power_watts": 900,
+      "estimated_kwh": "0.7",
+      "estimate_source": "Fictional manually entered estimate; not a smart-meter observation.",
+      "baseline_start": 0,
+      "locked": false,
+      "noncritical_confirmed": true
+    }
+  ]
+}

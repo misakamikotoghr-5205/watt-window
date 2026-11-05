@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "name": "Fictional small shop after closing",
+  "start": "2026-11-28T19:00:00+08:00",
+  "timezone": "Asia/Shanghai",
+  "slot_minutes": 30,
+  "currency": "CNY",
+  "tariff_source": "Fictional flat schedule input; no real tariff/energy savings measured.",
+  "prices_per_kwh": [
+    "0.8",
+    "0.8",
+    "0.5",
+    "0.4",
+    "0.4",
+    "0.5",
+    "0.8",
+    "0.8"
+  ],
+  "capacity_watts": 1800,
+  "background_watts": [
+    250,
+    250,
+    250,
+    250,
+    250,
+    250,
+    250,
+    250
+  ],
+  "jobs": [
+    {
+      "id": "floor_cleaner",
+      "name": "Optional floor-cleaner charge",
+      "earliest_start": 0,
+      "latest_finish": 8,
+      "duration_slots": 2,
+      "power_watts": 600,
+      "estimated_kwh": "0.6",
+      "estimate_source": "Fictional manually entered estimate; not a smart-meter observation.",
+      "baseline_start": 0,
+      "locked": false,
+      "noncritical_confirmed": true
+    },
+    {
+      "id": "sign_test",
+      "name": "Sign-light test (fixed time)",
+      "earliest_start": 0,
+      "latest_finish": 8,
+      "duration_slots": 1,
+      "power_watts": 200,
+      "estimated_kwh": "0.1",
+      "estimate_source": "Fictional manually entered estimate; not a smart-meter observation.",
+      "baseline_start": 0,
+      "locked": true,
+      "noncritical_confirmed": true
+    },
+    {
+      "id": "tool_charge",
+      "name": "Noncritical tool-battery charge",
+      "earliest_start": 2,
+      "latest_finish": 8,
+      "duration_slots": 2,
+      "power_watts": 500,
+      "estimated_kwh": "0.5",
+      "estimate_source": "Fictional manually entered estimate; not a smart-meter observation.",
+      "baseline_start": 2,
+      "locked": false,
+      "noncritical_confirmed": true
+    }
+  ]
+}

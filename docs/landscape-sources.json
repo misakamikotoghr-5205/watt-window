@@ -1,0 +1,44 @@
+{
+  "checked_on": "2026-11-05",
+  "method": "Fixed public GitHub commits; complete README/license read; design comparison only, no source copied.",
+  "sources": [
+    {
+      "repo": "davidusb-geek/emhass",
+      "branch": "master",
+      "commit": "2306a87445e939bbc3350240d9467af4dd108751",
+      "commit_date": "2026-11-04T16:04:55Z",
+      "license": "MIT",
+      "files": [
+        {
+          "path": "README.md",
+          "url": "https://github.com/davidusb-geek/emhass/blob/2306a87445e939bbc3350240d9467af4dd108751/README.md",
+          "sha256": "ab1dccefc6dd12eda90d11a57cedc3aebdf82a9fc0843ab7968bfcb1d3673e47"
+        },
+        {
+          "path": "LICENSE",
+          "url": "https://github.com/davidusb-geek/emhass/blob/2306a87445e939bbc3350240d9467af4dd108751/LICENSE",
+          "sha256": "64273ae3bc20885fb3b09805e1d10ece652b7a7616438d0492ca33b81e13aa96"
+        }
+      ]
+    },
+    {
+      "repo": "FlexMeasures/flexmeasures",
+      "branch": "main",
+      "commit": "8a1f5087496d82794bb262ecdb7ba6eec280a03f",
+      "commit_date": "2026-11-04T23:13:42Z",
+      "license": "Apache-2.0",
+      "files": [
+        {
+          "path": "README.md",
+          "url": "https://github.com/FlexMeasures/flexmeasures/blob/8a1f5087496d82794bb262ecdb7ba6eec280a03f/README.md",
+          "sha256": "62020f6689211685f85fd69d2d8e13b9a44947cb37ce60d3b95aaec884b40eda"
+        },
+        {
+          "path": "LICENSE",
+          "url": "https://github.com/FlexMeasures/flexmeasures/blob/8a1f5087496d82794bb262ecdb7ba6eec280a03f/LICENSE",
+          "sha256": "cc4d4de0920b0d3912203b5d9aa76728ac4a11087f55da9ea00576db7d1e34e2"
+        }
+      ]
+    }
+  ]
+}
