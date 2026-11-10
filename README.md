@@ -2,7 +2,7 @@
 
 A small, explainable **advisory** scheduler for user-confirmed noncritical household or shop loads. Enter time windows, a tariff table, estimated energy, concurrent power and background load. Compare a proposed schedule against the original plan, inspect infeasibility, and test alternative assumptions.
 
-Python 3.11+ standard library only, with system IANA timezone data. No network access, paid APIs, equipment control or AI inference. This is a **pre-event prototype** for Next Horizon 2026, not work performed during its future 48-hour event and not a submitted/shortlisted entry.
+Python 3.11+ standard library only, with system IANA timezone data. No network access, paid APIs, equipment control or AI inference. This is a **pre-event prototype** for Next Horizon 2026, not work performed during its future 48-hour event. The participant reports that the concept form was submitted; an independent receipt, shortlisting and final event submission remain unverified.
 
 ## Run
 
@@ -54,7 +54,7 @@ Input bounds: 1–48 slots at 15/30/60 minutes, 1–12 jobs, one currency, integ
 
 Energy scheduling already has mature implementations. [docs/landscape.md](docs/landscape.md) compares EMHASS (MIT) and FlexMeasures (Apache-2.0), pinned to reviewed commits. This project is a narrower, independently implemented explanation-first prototype; no upstream code, assets or tests were copied.
 
-Next Horizon's first stage requires a presentation; a software repository alone is not an entry. Dates, pending shortlisting and the remaining deliverables are recorded in [docs/competition.md](docs/competition.md). A truthful five-part [pitch outline](docs/pitch-outline.md) is included; no PowerPoint, registration, video or live pitch has been submitted.
+Next Horizon's first stage requires a presentation; a software repository alone is not an entry. Dates, pending shortlisting and the remaining deliverables are recorded in [docs/competition.md](docs/competition.md). A truthful five-part [pitch outline](docs/pitch-outline.md) is included. The participant-reported concept submission is preserved without repeating it; slide/video attachments, shortlisting and any final live pitch are not established by this repository. The optional prototype video below is newly prepared material.
 
 Original code and fictional examples: MIT, [LICENSE](LICENSE).
 
