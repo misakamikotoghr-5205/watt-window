@@ -1,0 +1,193 @@
+{
+  "schema_version": 1,
+  "project": "watt-window",
+  "prepared_at_utc": "2026-11-10T11:35:52.026013+00:00",
+  "video_path": "docs/media/watt-window-optional-prototype-demo.mp4",
+  "bytes": 1190106,
+  "sha256": "b35ee3e02328296c30acec697b79ff951a35fb2b696f01bc558d6eede7650b10",
+  "duration_seconds": 210.0,
+  "width": 1920,
+  "height": 1080,
+  "frames_per_second": 5,
+  "codec": "H.264",
+  "audio_streams": 0,
+  "presentation": "Original edited evidence cards and data-derived charts with burned-in English captions. Not browser footage, terminal capture or continuous screen recording.",
+  "persistent_label": "PRE-EVENT PROTOTYPE / FICTIONAL FIXTURE / NO DEVICE CONTROL",
+  "optional_event_material": true,
+  "official_optional_video_guidance": "Optional 2-4 minute prototype video",
+  "official_source": "https://eisociety.org/hackathon.php?slug=next-horizon-2026",
+  "public_video_url": null,
+  "actual_cli_commands": [
+    {
+      "command": [
+        "python3",
+        "-m",
+        "watt_window",
+        "solve",
+        "examples/household.json",
+        "--out",
+        "<local-output>/household"
+      ],
+      "output_path_redacted": true,
+      "executed_at_utc": "2026-11-10T11:33:22.626810+00:00",
+      "exit_code": 0,
+      "source_commit": "280045e9d8bf3447780245cfa6783c375c04e8e0",
+      "scope": "Actual deterministic local fixture review/solve; no model/provider, browser, equipment or platform operation."
+    },
+    {
+      "command": [
+        "python3",
+        "-m",
+        "watt_window",
+        "solve",
+        "examples/infeasible.json",
+        "--out",
+        "<local-output>/infeasible"
+      ],
+      "output_path_redacted": true,
+      "executed_at_utc": "2026-11-10T11:33:22.758864+00:00",
+      "exit_code": 0,
+      "source_commit": "280045e9d8bf3447780245cfa6783c375c04e8e0",
+      "scope": "Actual deterministic local fixture review/solve; no model/provider, browser, equipment or platform operation."
+    },
+    {
+      "command": [
+        "python3",
+        "-m",
+        "watt_window",
+        "solve",
+        "examples/household.json",
+        "--max-nodes",
+        "1",
+        "--out",
+        "<local-output>/budget"
+      ],
+      "output_path_redacted": true,
+      "executed_at_utc": "2026-11-10T11:33:22.921300+00:00",
+      "exit_code": 0,
+      "source_commit": "280045e9d8bf3447780245cfa6783c375c04e8e0",
+      "scope": "Actual deterministic local fixture review/solve; no model/provider, browser, equipment or platform operation."
+    },
+    {
+      "command": [
+        "python3",
+        "-m",
+        "watt_window",
+        "sensitivity",
+        "examples/household.json",
+        "--scenarios",
+        "examples/sensitivity.json",
+        "--out",
+        "<local-output>/sensitivity"
+      ],
+      "output_path_redacted": true,
+      "executed_at_utc": "2026-11-10T11:33:23.025040+00:00",
+      "exit_code": 0,
+      "source_commit": "280045e9d8bf3447780245cfa6783c375c04e8e0",
+      "scope": "Actual deterministic local fixture review/solve; no model/provider, browser, equipment or platform operation."
+    }
+  ],
+  "verification": {
+    "ffprobe_passed": true,
+    "full_video_decode_exit_code": 0,
+    "full_decode_xerror_enabled": true,
+    "actual_frame_count": 1050,
+    "actual_mp4_frames_extracted": 14,
+    "actual_mp4_frames_visually_reviewed": 14,
+    "full_size_detail_checks": [
+      "cost comparison",
+      "sensitivity values"
+    ],
+    "continuous_full_playback_claimed": false,
+    "audio_listening": "Not applicable: no audio stream.",
+    "runtime_changed_for_video": false,
+    "tests_rerun_for_video": false
+  },
+  "posters": [
+    {
+      "path": "docs/media/poster-estimated-cost-20261110.png",
+      "caption": "Actual MP4 frame at62.0s: fictional cost comparison",
+      "bytes": 325713,
+      "sha256": "d6f4c6fed188cf19efe314e8b40d925e30deb6dadb4228cda4c2a9c21f2e91af",
+      "actual_encoded_mp4_frame": true,
+      "visually_reviewed": true,
+      "image_editing": "None; exact copy of extracted encoded-video frame."
+    },
+    {
+      "path": "docs/media/poster-sensitivity-20261110.png",
+      "caption": "Actual MP4 frame at138.0s: hypothetical sensitivity table",
+      "bytes": 359267,
+      "sha256": "631243338b8c9365ccdf0ba316a80fdf10056853f4a6118aa4dbdcc94955c925",
+      "actual_encoded_mp4_frame": true,
+      "visually_reviewed": true,
+      "image_editing": "None; exact copy of extracted encoded-video frame."
+    }
+  ],
+  "attribution": {
+    "code_and_fictional_examples": "Respective project, MIT license.",
+    "graphics_and_captions": "Original Codex-assisted editorial cards and charts derived from actual JSON; no generated browser or terminal UI.",
+    "font": "DejaVu Sans, installed system font; font binaries not distributed.",
+    "third_party_images_music_voice": "None."
+  },
+  "limitations": [
+    "Video is optional preparation and does not establish formal project submission, shortlisting, qualification approval or awards.",
+    "CLI command output directories are replaced by <local-output>; execution dates, command options, exit codes and source revisions remain factual.",
+    "No hosted model call, remote API, browser interaction or platform deployment is evidenced by these cards."
+  ],
+  "actual_results": {
+    "fictional_input": true,
+    "input_schedule_date": "2026-11-28 (fictional input, not work completed during the future event)",
+    "household_status": "optimal_in_model",
+    "original_estimated_cost_cny": "3.958750",
+    "proposed_estimated_cost_cny": "2.326250",
+    "estimated_model_difference_cny": "1.632500",
+    "baseline_valid_comparator": true,
+    "original_peak_watts": 1850,
+    "proposed_peak_watts": 2250,
+    "entered_capacity_watts": 2600,
+    "infeasible_witness": {
+      "required_watt_slots": 4800,
+      "available_watt_slots": 3300,
+      "interval_slots": [
+        0,
+        2
+      ]
+    },
+    "one_node_result": "feasible_not_proven_optimal",
+    "measured_savings": false,
+    "carbon_reduction_claimed": false,
+    "device_commands_sent": 0
+  },
+  "actual_result_artifacts": [
+    {
+      "role": "household/result.json",
+      "bytes": 4132,
+      "sha256": "76ce2ca846df1d97feb28e471e8a94b2ab96818589223b20e3ba2d1bf1a77a9a",
+      "scope": "Actual local CLI result; original retained in producer evidence bundle."
+    },
+    {
+      "role": "infeasible/result.json",
+      "bytes": 2330,
+      "sha256": "7022fcc2116455973e13b92bb8d0febbf704561e312042c63ba96b0eeeee062a",
+      "scope": "Actual local CLI result; original retained in producer evidence bundle."
+    },
+    {
+      "role": "budget/result.json",
+      "bytes": 4133,
+      "sha256": "e3764558315841965511254dd4a12fe4dfb20e71c493769f7472dc7a3f756b49",
+      "scope": "Actual local CLI result; original retained in producer evidence bundle."
+    },
+    {
+      "role": "sensitivity/sensitivity.json",
+      "bytes": 21585,
+      "sha256": "fa1ed938125f7d55fa2a64c05640f25651856df1ac3c3b0e6638ca44eb8975d7",
+      "scope": "Actual local CLI result; original retained in producer evidence bundle."
+    }
+  ],
+  "main_operator_review": {
+    "actual_contact_sheet_reviewed": true,
+    "full_size_actual_midpoint_reviewed": 4,
+    "privacy_and_legibility_passed": true
+  },
+  "contest_platform_published_or_submitted_by_this_preparation": false
+}

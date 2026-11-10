@@ -1,0 +1,48 @@
+1
+00:00:00,000 --> 00:00:16,000
+Watt Window is an advisory local scheduler. This optional video reproduces fictional examples; it does not show actual household savings or event-period work.
+
+2
+00:00:16,000 --> 00:00:34,000
+The saved example uses twelve half-hour slots and a 2,600-watt entered capacity. Its November 28 schedule date is fictional input, not future work already performed.
+
+3
+00:00:34,000 --> 00:00:52,000
+The same three jobs move within their allowed windows. Each job remains contiguous; this diagram is derived from the saved result, not a device command.
+
+4
+00:00:52,000 --> 00:01:12,000
+The baseline is a valid comparator in this example. The 1.632500 CNY difference is arithmetic on fictional inputs, not a measured bill reduction.
+
+5
+00:01:12,000 --> 00:01:32,000
+The proposed profile peaks at 2,250 watts, below the entered 2,600-watt limit. Its peak exceeds the original 1,850 watts. This is not electrical safety validation.
+
+6
+00:01:32,000 --> 00:01:50,000
+For slots zero to two, minimum unavoidable demand is 4,800 watt-slots, above the 3,300 available. The actual result is infeasible in this supplied model.
+
+7
+00:01:50,000 --> 00:02:08,000
+With max-nodes set to one, the actual result keeps a feasible plan but does not prove optimality. Budget exhaustion is distinct from proving impossibility.
+
+8
+00:02:08,000 --> 00:02:28,000
+Each scenario is independently solved. Cost changes across different tariffs are not causal measured savings. The rows below come directly from the saved sensitivity JSON.
+
+9
+00:02:28,000 --> 00:02:46,000
+The feasible run exports JSON, HTML, CSV and an iCalendar file. These are local files for manual review; nothing is sent to an appliance or calendar service.
+
+10
+00:02:46,000 --> 00:03:04,000
+The video reproduces one optimal result, one feasible-but-unproven result, and one infeasibility witness. None of these labels asserts real-world savings or physical safety.
+
+11
+00:03:04,000 --> 00:03:20,000
+The original code and fictional examples use MIT. Codex assisted implementation and these materials. No runtime model, network service, device command or carbon measurement is involved.
+
+12
+00:03:20,000 --> 00:03:30,000
+This 3 minute 30 second video is optional prototype material. The idea-form stage is participant reported. Shortlisting, event-period work and any final submission remain separate.
+

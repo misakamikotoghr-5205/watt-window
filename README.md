@@ -57,3 +57,7 @@ Energy scheduling already has mature implementations. [docs/landscape.md](docs/l
 Next Horizon's first stage requires a presentation; a software repository alone is not an entry. Dates, pending shortlisting and the remaining deliverables are recorded in [docs/competition.md](docs/competition.md). A truthful five-part [pitch outline](docs/pitch-outline.md) is included; no PowerPoint, registration, video or live pitch has been submitted.
 
 Original code and fictional examples: MIT, [LICENSE](LICENSE).
+
+## Optional demonstration, November 10
+
+2026年11月10日已完成[210秒可选原型演示](docs/media/watt-window-optional-prototype-demo.mp4)：从实际本地CLI输出制作英文静音证据卡，展示虚构输入下的排程、成本、功率、不可行解释、预算限制与敏感性。全程标注pre-event prototype/fictional fixture，既不是浏览器录屏，也不代表实测节省、设备控制或11月28–30日赛期工作。[媒体与QA记录](docs/evidence/local-demo-20261110.json)保留命令、哈希及14个实际MP4帧的检查范围；视频发布/赛事交件阶段另行核验。
